@@ -133,6 +133,7 @@ a{
     margin : auto;
     width: 40%;
     transition: .35s;
+    padding-left: 2%;
 }
 
 .photo:hover{
@@ -141,13 +142,13 @@ a{
 
 .tengah .latarbelakang{
     margin-top: 30px;
-    padding-top: 30px;
+    background-color: rgba(137, 145, 255, 0.4)
 }
 .tengah .latarbelakang .lb{
-    padding: 10%;
+    padding: 8%;
     color: black;
     text-align: justify;
-    padding-top: 10px;
+    padding-top: 7%;
     padding-left: 30%;
 }
 
