@@ -44,6 +44,7 @@ body .atas h1{
 
 .atas ul li:hover{
     border-bottom: 3px solid white;
+    transition: .30s;
 
 }
 
@@ -142,7 +143,11 @@ a{
 
 .tengah .latarbelakang{
     margin-top: 30px;
-    background-color: rgba(137, 145, 255, 0.4)
+    background-color: rgba(137, 145, 255, 0.4);
+}
+.tengah .latarbelakang:hover{
+    background-color: rgba(121, 72, 253, 0.4);
+    transition: .35s;
 }
 .tengah .latarbelakang .lb{
     padding: 8%;
@@ -172,9 +177,10 @@ a{
     list-style: none;
 	padding: 0 20px 0 0;
 }
-.bawah .sosmed a:hover{
+a:hover{
     color: red;
     transform: scale(1.1) rotate(-3deg);
+    transition: .30s;
 }
 .bawah .sosmed .media{
     padding-right: 30px;
@@ -244,9 +250,15 @@ a{
     width: 100%;
 }
 
-.badan .sesi tr:hover{
-    background: rgb(238, 137, 213);
+.badan .sesi .tabel2 tr:hover{
+    background: rgb(186, 40, 253);
     color: white;
+    transition: .25s;
+}
+.badan .sesi .tabel3 tr:hover{
+    background: rgb(186, 40, 253);
+    color: white;
+    transition: .25s;
 }
 
 
@@ -279,6 +291,7 @@ a{
 input:hover{
     color: white;
     background: darkgrey;
+    transition: .35s;
 }
 
 .bawah-fixed{
@@ -301,10 +314,6 @@ input:hover{
 	font-size: 13px;
     list-style: none;
 	padding: 0 20px 0 0;
-}
-.bawah-fixed .sosmed a:hover{
-    color: red;
-    transform: scale(1.1) rotate(-3deg);
 }
 .bawah-fixed .sosmed .media{
     padding-right: 30px;
@@ -336,6 +345,16 @@ input:hover{
 
 .pic2{
     background-color:rgba(255, 255, 255, 0.6);
+}
+
+.pic1:hover{
+    background-color:rgba(153, 66, 252, 0.6);
+    transition: .35s;
+}
+
+.pic2:hover{
+    background-color:rgba(153, 66, 252, 0.6);
+    transition: .35s;
 }
 
 
